@@ -1,0 +1,36 @@
+﻿# ملفات النظام
+bin/
+obj/
+.vscode/
+*.user
+*.suo
+*.cache
+*.log
+
+# ملفات بيئة العمل
+.env
+secrets.json
+
+# ملفات الإعدادات الخاصة بـ Visual Studio
+.vs/
+*.csproj.user
+
+# ملفات الإعدادات الخاصة بـ JetBrains Rider
+.idea/
+
+# ملفات التبعية والمخرجات
+node_modules/
+wwwroot/
+
+# إعدادات التهيئة
+appsettings.Development.json
+appsettings.Local.json
+
+# ملفات قاعدة البيانات المؤقتة
+*.db
+*.sqlite
+migrations/
+
+# ملفات التقييم والتحليل
+TestResults/
+coverage/
